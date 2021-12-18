@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid $blue;
+  margin-top: 40px;
+  padding: 20px 0;
+
+  ul {
+    list-style: none;
+    display: flex;
+    li {
+      width: 100px;
+      text-align: center;
+    }
+    a {
+      text-decoration: none;
+      color: $blue;
+    }
+  }
+
+  .social-media {
+    display: inline-block;
+
+    i {
+      color: $blue;
+    }
+    i:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+}
