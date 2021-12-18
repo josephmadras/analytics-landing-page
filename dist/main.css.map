@@ -8,7 +8,8 @@
         "../styles/_mixins.scss",
         "../styles/_header.scss",
         "../styles/_mixins.scss",
-        "../styles/_hero.scss"
+        "../styles/_hero.scss",
+        "../styles/_features.scss"
     ],
     "names": [],
     "file": "main.css"
