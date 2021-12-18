@@ -1,0 +1,30 @@
+.services {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 40px 100px;
+
+  > * {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    :nth-child(4) {
+      h1 {
+        width: 80%;
+        color: green;
+      }
+    }
+    h1 {
+      width: 45%;
+    }
+
+    p {
+      padding-right: 200px;
+      margin-top: 20px;
+    }
+  }
+  img {
+    width: 600px;
+    height: 410px;
+  }
+}

@@ -166,4 +166,44 @@ h3 {
 .features__list .card p {
   padding: 0 25px;
 }
+
+.services {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  padding: 40px 100px;
+}
+
+.services > * {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.services > * :nth-child(4) h1 {
+  width: 80%;
+  color: green;
+}
+
+.services > * h1 {
+  width: 45%;
+}
+
+.services > * p {
+  padding-right: 200px;
+  margin-top: 20px;
+}
+
+.services img {
+  width: 600px;
+  height: 410px;
+}
 /*# sourceMappingURL=main.css.map */
