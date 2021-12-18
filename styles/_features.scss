@@ -1,0 +1,25 @@
+.features {
+  padding: 20px 100px;
+  text-align: center;
+
+  &__heading {
+    font-size: 40px;
+  }
+  &__description {
+    margin: 20px 0;
+    padding: 0 140px;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+    h2 {
+      font-size: 16px;
+      padding: 20px 0;
+    }
+    // .card p {
+    //   padding-top: 20px;
+    // }
+  }
+}

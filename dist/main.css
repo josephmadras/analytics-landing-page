@@ -14,6 +14,17 @@ body {
   min-height: 100vh;
 }
 
+p {
+  color: #8794ba;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3 {
+  color: #172755;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -121,5 +132,34 @@ body {
 .hero__illustration {
   width: 873px;
   margin-right: -70px;
+}
+
+.features {
+  padding: 20px 100px;
+  text-align: center;
+}
+
+.features__heading {
+  font-size: 40px;
+}
+
+.features__description {
+  margin: 20px 0;
+  padding: 0 140px;
+}
+
+.features__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+
+.features__list h2 {
+  font-size: 16px;
+  padding: 20px 0;
 }
 /*# sourceMappingURL=main.css.map */
