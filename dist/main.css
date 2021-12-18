@@ -12,6 +12,8 @@ body {
   font-family: "Roboto", sans-serif;
   width: 100%;
   min-height: 100vh;
+  background-image: url("../assets/images/desktop/background-top.png");
+  background-repeat: no-repeat;
 }
 
 p {
@@ -103,6 +105,7 @@ h3 {
 .hero__content h1 {
   font-size: 50px;
   font-weight: bold;
+  color: #fff;
 }
 
 .hero__content p {
@@ -135,7 +138,7 @@ h3 {
 }
 
 .features {
-  padding: 20px 100px;
+  padding: 80px 100px;
   text-align: center;
 }
 
