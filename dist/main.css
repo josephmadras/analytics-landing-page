@@ -210,4 +210,104 @@ h3 {
   width: 600px;
   height: 410px;
 }
+
+.pricing {
+  padding: 0 100px;
+  text-align: center;
+}
+
+.pricing > p {
+  padding: 20px 300px;
+}
+
+.pricing .price-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
+}
+
+.pricing .price-cards > .card {
+  width: 340px;
+  height: 440px;
+  background-color: #2a407c;
+  border-radius: 10px;
+  padding: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.pricing .price-cards > .card h2 {
+  font-size: 30px;
+  color: white;
+}
+
+.pricing .price-cards > .card h2 + span {
+  display: inline-block;
+  width: 200px;
+  border-bottom: 1px solid #8794ba;
+  font-size: 18px;
+  padding: 10px 0;
+  margin-bottom: 40px;
+  color: #8794ba;
+}
+
+.pricing .price-cards > .card h3 {
+  font-size: 60px;
+  color: white;
+}
+
+.pricing .price-cards > .card h3 + span {
+  font-size: 16px;
+  color: #8794ba;
+}
+
+.pricing .price-cards > .card a {
+  width: 238px;
+  height: 50px;
+  color: #fff;
+  border: 1px solid #8794ba;
+  border-radius: 68px;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+.pricing .price-cards .card2 {
+  background-color: #fff;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.pricing .price-cards .card2 h2,
+.pricing .price-cards .card2 h3 {
+  color: #2a407c;
+}
+
+.pricing .price-cards .card2 a {
+  background-color: #ef2a82;
+  border: none;
+}
 /*# sourceMappingURL=main.css.map */
