@@ -1,0 +1,39 @@
+@import "mixins";
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+
+  &__nav {
+    width: 100vw;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+    li {
+      width: 80px;
+      a {
+        text-decoration: none;
+        color: $blue;
+      }
+    }
+
+    .signin {
+      margin-left: auto;
+    }
+
+    .signup {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 161px;
+      height: 40px;
+      border: 1px solid $blue;
+      border-radius: 10px;
+    }
+  }
+}
