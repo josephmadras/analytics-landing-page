@@ -162,4 +162,8 @@ h3 {
   font-size: 16px;
   padding: 20px 0;
 }
+
+.features__list .card p {
+  padding: 0 25px;
+}
 /*# sourceMappingURL=main.css.map */
