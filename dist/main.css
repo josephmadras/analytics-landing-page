@@ -213,7 +213,15 @@ h3 {
 
 .pricing {
   padding: 0 100px;
+  padding-top: 250px;
   text-align: center;
+  background-image: url("../assets/images/desktop/background-bottom.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pricing > h1 {
+  color: #fff;
 }
 
 .pricing > p {
@@ -323,7 +331,7 @@ h3 {
           align-items: center;
   border-top: 1px solid #8794ba;
   margin-top: 40px;
-  padding: 20px 0;
+  padding: 50px 0;
 }
 
 .footer ul {
