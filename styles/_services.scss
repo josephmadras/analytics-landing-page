@@ -1,7 +1,7 @@
 .services {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 40px 100px;
+  padding: 40px 200px;
 
   > * {
     display: flex;
@@ -15,11 +15,11 @@
       }
     }
     h1 {
-      width: 45%;
+      width: 60%;
     }
 
     p {
-      padding-right: 200px;
+      padding-right: 120px;
       margin-top: 20px;
     }
   }

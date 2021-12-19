@@ -3,8 +3,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 100px;
-  padding-top: 20px;
+  padding: 0 200px;
+  padding-top: 40px;
 
   &__nav {
     width: 100vw;
@@ -14,6 +14,7 @@
     list-style: none;
     display: flex;
     align-items: center;
+    margin-left: 40px;
 
     li {
       width: 80px;
@@ -36,5 +37,11 @@
       border: 1px solid $blue;
       border-radius: 10px;
     }
+  }
+
+  a:hover,
+  i:hover {
+    color: #fff;
+    cursor: pointer;
   }
 }

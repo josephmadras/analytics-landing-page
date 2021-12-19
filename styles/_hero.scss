@@ -2,12 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-left: 100px;
+  padding-left: 200px;
   overflow: hidden;
   padding-top: 30px;
 
   &__content {
-    padding-right: 80px;
+    padding-right: 40px;
     h1 {
       font-size: 50px;
       font-weight: bold;
@@ -34,10 +34,6 @@
     }
   }
   &__illustration {
-    width: 873px;
-    // height: 554.57px;
-    // height: 81px;
-    // width: 550px;
-    margin-right: -70px;
+    margin-right: -200px;
   }
 }
